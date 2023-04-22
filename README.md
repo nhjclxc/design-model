@@ -6,12 +6,12 @@
    * 依赖倒置原则：t03_dependence_reverse
    * 里氏替换原则：t03_Lees_principle
    * 开　闭　原则：t05_open_close
-   * 迪米特原则　：t06_demeter_principle
+   * 迪米特　原则：t06_demeter_principle
    * 合成复用原则：t07_composite_reuse_principle
    
 UML类图介绍：com.example.uml
 
-设计模式：com.example.designmodel
+设计模式：com.example.design
 
 
  ### author: nhjclxc@163.com
