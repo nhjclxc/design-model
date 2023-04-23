@@ -14,7 +14,8 @@ UML类图介绍：com.example.uml
 设计模式：com.example.design
 
 
- ### author: nhjclxc@163.com
+ ### Author: nhjclxc@163.com
+ ### From: https://www.bilibili.com/video/BV1G4411c7N4/
  
 # Read Me First
 The following was discovered as part of building this project:
