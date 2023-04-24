@@ -11,7 +11,7 @@
    
 UML类图介绍：com.example.uml
 
-设计模式：com.example.design
+设计模式：com.example.design_model
 
 
  ### Author: nhjclxc@163.com
