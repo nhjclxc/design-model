@@ -12,6 +12,7 @@
 UML类图介绍：com.example.uml
 
 设计模式：com.example.design_model
+  * 原型模式：t03_prototype 
 
 
  ### Author: nhjclxc@163.com
