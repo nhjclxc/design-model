@@ -18,6 +18,7 @@ UML类图介绍：com.example.uml
   * 桥接　模式：t06_bridge
   * 装饰者模式：t07_decorator
   * 组合模式：t08_composite
+  * 外观模式：t09_facade
 
 
  ### Author: nhjclxc@163.com
