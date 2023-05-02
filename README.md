@@ -12,13 +12,14 @@
 UML类图介绍：com.example.uml
 
 设计模式：com.example.design_model
-  * 原型　模式：t03_prototype 
+  * 原型模式：　t03_prototype 
   * 建造者模式：t04_builder
   * 适配器模式：t05_adapter
-  * 桥接　模式：t06_bridge
+  * 桥接模式：　t06_bridge
   * 装饰者模式：t07_decorator
-  * 组合模式：t08_composite
-  * 外观模式：t09_facade
+  * 组合模式：　t08_composite
+  * 外观模式：　t09_facade
+  * 享元模式：　t10_Flyweight
 
 
  ### Author: nhjclxc@163.com
