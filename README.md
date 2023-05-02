@@ -17,6 +17,7 @@ UML类图介绍：com.example.uml
   * 适配器模式：t05_adapter
   * 桥接　模式：t06_bridge
   * 装饰者模式：t07_decorator
+  * 组合模式：t08_composite
 
 
  ### Author: nhjclxc@163.com
