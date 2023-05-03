@@ -38,6 +38,19 @@
             <version>13.0</version>
             <scope>compile</scope>
         </dependency>
+
+        <!-- com.example.design_model.t11_proxy.Main3里面用到，cglib代理用到的包 cglib-->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib-nodep</artifactId>
+            <version>3.2.5</version>
+        </dependency>
+
     </dependencies>
 
     <build>
