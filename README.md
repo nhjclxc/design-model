@@ -21,7 +21,8 @@ UML类图介绍：com.example.uml
   * 外观模式：　t09_facade
   * 享元模式：　t10_Flyweight
   * 代理模式：　t11_proxy
-  * 模板方法模式：　t12_template
+  * 模板方法模式：t12_template
+  * 命令模式：t13_command
 
 
  ### Author: nhjclxc@163.com
