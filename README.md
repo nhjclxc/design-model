@@ -22,7 +22,8 @@ UML类图介绍：com.example.uml
   * 享元模式：　t10_Flyweight
   * 代理模式：　t11_proxy
   * 模板方法模式：t12_template
-  * 命令模式：t13_command
+  * 命令模式：　t13_command
+  * 访问者模式：　t14_visitor
 
 
  ### Author: nhjclxc@163.com
