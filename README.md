@@ -28,7 +28,7 @@ UML类图介绍：com.example.uml
   * 命令模式：　t13_command
   * 访问者模式：　t14_visitor
   * 迭代器模式：　t15_iterator
-  * 观察者模式：　t14_observe
+  * 观察者模式：　t16_observe
 
 
  ### Author: nhjclxc@163.com
