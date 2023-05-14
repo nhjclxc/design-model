@@ -12,7 +12,10 @@
 UML类图介绍：com.example.uml
 
 设计模式：com.example.design_model
-  * 原型模式：　t03_prototype 
+  * MVC模式：　t00_mvc
+  * 单例模式：　t01_singleton
+  * 工厂模式：　t02_factory
+  * 原型模式：　t03_prototype
   * 建造者模式：t04_builder
   * 适配器模式：t05_adapter
   * 桥接模式：　t06_bridge
