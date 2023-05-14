@@ -92,9 +92,9 @@ class DispatcherServlet {
      * @param type 1=注册，2=登录，3=查询
      */
     public Model request(Model model, int type){
-        Class<? extends Model> adapt = adapt(model);
+        Class<? extends Model> clazz = adapt(model);
         Model retModel = null;
-        if (UserModel.class.equals(adapt)) {
+        if (UserModel.class.equals(clazz)) {
             UserModel userModel = (UserModel)model;
             UserModel userController = (UserModel)controllerMap.get(UserModel.class);
             switch (type) {
