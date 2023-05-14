@@ -2,11 +2,10 @@ package com.example.design_model.t16_observe;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Observable;
 
 /**
  * 观察者模式 observe pattern
- *  发布-订阅模式
+ *  发布-订阅模式 （发布订阅模式）
  *
  * @author LuoXianchao
  * @since 2023/5/10 20:17
@@ -49,7 +48,7 @@ class WeatherSubject implements Subject{
     @Override
     public void notifyObserve(Object o) {
         observeList.forEach(e -> {
-            e.update(o);
+            e.receive(o);
         });
     }
 }
@@ -76,30 +75,30 @@ class WeatherData {
  */
 class Sina implements Observe{
     @Override
-    public void update(Object o) {
+    public void receive(Object o) {
         WeatherData weatherData = (WeatherData)o;
         System.out.println("Sina：temperature = " + weatherData.getTemperature() + "，humidity = " + weatherData.getHumidity());
     }
 }
 class NetEase implements Observe{
     @Override
-    public void update(Object o) {
+    public void receive(Object o) {
         WeatherData weatherData = (WeatherData)o;
         System.out.println("NetEase：temperature = " + weatherData.getTemperature() + "，humidity = " + weatherData.getHumidity());
     }
 }
 
 /**
- * 被订阅者接口 Subject
+ * 被订阅者接口 Subject（发布者）
  */
-interface Subject {
+interface Subject { //Publisher
     void register(Observe observe);
     void remove(Observe observe);
     void notifyObserve(Object o);
 }
 /**
- * 观察者接口 Observe
+ * 观察者接口 Observe （订阅者）
  */
-interface Observe {
-    void update(Object o);
+interface Observe { // Subscriber
+    void receive(Object o);//接收消息
 }
