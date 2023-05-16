@@ -48,7 +48,7 @@ class CalculatorUtils {
      * @param expreString 字符串表达式
      * @return Expression对象
      */
-    private static Expression analyticExpression(String expreString){
+    private static Expression parseExpression(String expreString){
         // 栈用来存储表达式，可能是变量表达式，也可能是操作符表达式
         Stack<Expression> stack = new Stack<>();
         // 将字符串表达式转化为字符数组，用于遍历每一个字符，的到其对应表达式
@@ -86,7 +86,7 @@ class CalculatorUtils {
      * @return 计算结果
      */
     public static int excute(String expreString, Map<String, Integer> var){
-        return analyticExpression(expreString).interpreter(var);
+        return parseExpression(expreString).interpreter(var);
     }
 }
 
