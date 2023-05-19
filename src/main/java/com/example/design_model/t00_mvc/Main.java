@@ -19,8 +19,8 @@ public class Main {
         UserView view = new UserView();
 
         // 请求
-        UserModel model = new UserModel("zhansan", "zhansan123");
-        Model retModel = dispatcherServlet.request(model, 1);
+        view.setModel(new UserModel("zhansan", "zhansan123"));
+        Model retModel = dispatcherServlet.request(view.getModel(), 1);
         view.setModel(retModel);
 
         // view回显model数据
